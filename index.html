@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>n8n-sheets — Personal Automation App</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+  h1 { font-size: 26px; } h2 { font-size: 19px; margin-top: 32px; }
+  a { color: #0b57d0; }
+</style>
+</head>
+<body>
+<h1>n8n-sheets</h1>
+<p><strong>n8n-sheets</strong> is a personal, single-user automation application built and operated by its owner for private use only. It is not a public service and offers no sign-up.</p>
+
+<h2>What the app does</h2>
+<p>The app connects the owner's own Google Sheets and Google Drive accounts to a self-hosted <a href="https://n8n.io">n8n</a> workflow instance running on the owner's private server. It is used to manage a personal content-production queue:</p>
+<ul>
+  <li>Topics for social-media posts are kept in a Google Sheets spreadsheet (the "topic queue").</li>
+  <li>A scheduled workflow reads the queued topics, drafts an article with an image for each topic, and packages the result as a ZIP file.</li>
+  <li>The ZIP files are uploaded to a designated folder in the owner's Google Drive, and the workflow writes the status and the file link back into the spreadsheet.</li>
+</ul>
+
+<h2>Who uses it</h2>
+<p>Only the owner. The app signs in with the owner's own Google account through Google OAuth and acts solely on the owner's own spreadsheets and files.</p>
+
+<h2>Privacy</h2>
+<p>How the app accesses and handles Google user data is described in the <a href="privacy.html">Privacy Policy</a>.</p>
+
+<h2>Contact</h2>
+<p>Owner: Weiran Wu — <a href="mailto:wuweiran0502@gmail.com">wuweiran0502@gmail.com</a></p>
+</body>
+</html>
