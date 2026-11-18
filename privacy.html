@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — n8n-sheets</title>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; line-height: 1.7; color: #222; }
+  h1 { font-size: 26px; } h2 { font-size: 19px; margin-top: 32px; }
+  a { color: #0b57d0; }
+</style>
+</head>
+<body>
+<h1>Privacy Policy — n8n-sheets</h1>
+<p>Effective date: 2026-11-18</p>
+
+<p><strong>n8n-sheets</strong> is a personal automation application used by a single user (its owner) to connect the owner's own Google Sheets and Google Drive accounts to a self-hosted n8n workflow instance. This policy describes what data the app accesses and how it is handled.</p>
+
+<h2>Data the app accesses</h2>
+<ul>
+  <li><strong>Google Sheets:</strong> the contents of the owner's topic-queue spreadsheet (topic titles, target platform, production status, and result links).</li>
+  <li><strong>Google Drive:</strong> files in a designated folder ("图文成稿") where the app uploads finished draft packages (ZIP files containing an article and an image) created by the workflow.</li>
+</ul>
+<p>The app accesses this data only through Google OAuth, with the owner's own authorization, and only to carry out the owner's automation described on the <a href="index.html">home page</a>.</p>
+
+<h2>How the data is used</h2>
+<ul>
+  <li>Reading queued topics so the workflow can produce drafts for them.</li>
+  <li>Writing the production status and the resulting Drive file link back into the spreadsheet.</li>
+  <li>Uploading the generated ZIP packages to the owner's Drive folder.</li>
+</ul>
+<p>Processing takes place on the owner's own server and within the owner's own Google account. Draft text is generated with the owner's own third-party AI API key configured in the workflow; the spreadsheet contents are used as the input for that drafting step.</p>
+
+<h2>Sharing</h2>
+<p>The app does not sell, rent, or share Google user data with third parties. It does not use the data for advertising, and it does not track users. The app has exactly one user: its owner.</p>
+
+<h2>Retention and deletion</h2>
+<p>Data remains in the owner's own Google account and on the owner's own server, under the owner's control. The owner can revoke the app's access at any time from the Google Account permissions page, and can delete the spreadsheet, the Drive files, and the workflow at any time.</p>
+
+<h2>Contact</h2>
+<p>Owner: Weiran Wu — <a href="mailto:wuweiran0502@gmail.com">wuweiran0502@gmail.com</a></p>
+</body>
+</html>
